@@ -1,0 +1,54 @@
+{
+    "id": "restaurant-catalogue-lite-pwa-1",
+    "start_url": "./index.html",
+    "name": "Restaurant Catalogue Lite",
+    "short_name": "Restaurant Lite",
+    "description": "Free Catalogue Restaurant for you",
+    "display": "standalone",
+    "background_color": "#e4f1e8",
+    "theme_color": "#6e9184",
+    "icons": [
+      {
+        "src": "/icons/icon-restaurant-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/icon-restaurant-24x24.png",
+        "sizes": "24x24",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/icon-restaurant-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/icon-restaurant-64x64.png",
+        "sizes": "64x64",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/icon-restaurant-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/icon-restaurant-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/icon-restaurant-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ]
+  }

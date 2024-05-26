@@ -1,0 +1,262 @@
+@media screen and (min-width: 321px) {
+  body {
+    main {
+      .hero {
+        padding-left: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    main {
+      .hero {
+        height: 300px;
+        .judul-hero {
+          font-size: 49px;
+          margin-top: 10px;
+        }
+
+        .judul2-hero {
+          margin-top: -40px;
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 425px) {
+  body {
+    main {
+      .hero {
+
+        height: 300px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 485px) {
+  body {
+    header {
+      .navbar-container {
+        width: 250px;
+        h2 {
+          width: 250px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:530px){
+  body {
+    header {
+        .container-header {
+            .bars-navbar {
+                display: none;
+            }
+
+            .logo-restaurant {
+              h1 {
+                padding-left: 30px;
+                font-size: 27px;
+              }
+            }
+
+            .big-navbar-container {
+              display: block;
+                // visibility: collapse;
+                ul {
+                    display: grid;
+                    grid-template-columns: repeat(3, auto);
+                    gap: 20px;
+                    padding: 10px;
+                    li {
+                      list-style-type: none;
+                      a {
+                        display: flex;
+                        align-items: center;
+                        width: 100px;
+                        height: 44px;
+                        font-size: 18px;
+                        color: #DEF5E5;
+                        text-decoration: none;
+                      }
+                      a:hover {
+                        color: #6a8773;
+                      }
+                    }
+                   
+                  }
+            }
+        }
+
+        .navbar-container {
+            display: none;
+        }
+    }
+    main {
+      margin-top: 100px;
+      .hero {
+        border-top: 17px solid  #6e9184;
+        height: 320px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 649px) {
+  body {
+    main {
+      .detail-container {
+        .image-restaurant {
+            height: 350px;
+        }
+      }
+    }
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    header {
+        .navbar-container {
+            display: none;
+        .container-header {
+            .bars-navbar {
+                display: none;
+            }
+
+            .logo-restaurant {
+              h1 {
+                padding-left: 60px;
+                font-size: 37px
+              }
+            }
+
+            .big-navbar-container {
+              display: block;
+                // visibility: collapse;
+                ul {
+                    display: grid;
+                    grid-template-columns: repeat(3, auto);
+                    gap: 20px;
+                    padding: 20px;
+                    li {
+                      list-style-type: none;
+                      a {
+                        font-size: 20px;
+                        color: #e4f1e8;
+                        text-decoration: none;
+                      }
+                      a:hover {
+                        color: #6a8773;
+                      }
+                    }
+                   
+                  }
+            }
+        }
+
+        
+    }
+    }
+    main {
+      .hero {
+        border-top: 20px solid  #6e9184;
+        height: 400px;
+        background-position: 0 -49px;
+        .judul-hero {
+          font-size: 80px;
+          margin-top: 10px;
+        }
+
+        .judul2-hero {
+          margin-top: -40px;
+          font-size: 32px;
+        }
+      }
+
+      .main-title {
+        font-size: 35px;
+        height: 70px;
+      }
+
+      .detail-container {
+        .image-restaurant {
+          height: 450px;
+        } 
+      }
+      
+      i.star {
+        font-size: 44px;
+        width: 70px;
+        height: 70px;
+
+        margin-right: 20px;
+        margin-bottom: 20px;
+      }
+
+    }
+  }
+
+  
+ 
+    
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    header {
+      .container-header {
+        .big-navbar-container {
+          display: block;
+            ul {
+                gap: 0;
+                padding-inline: 0;
+            }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    main {
+      .hero {
+        border-top: 24px solid  #6e9184;
+        height: 450px;
+      }
+      
+    }
+  }
+}
+
+@media screen and (min-width: 1200px){
+  body {
+    main {
+      margin: auto;
+      margin-top: 100px;
+      width: 1200px;
+      .hero {
+        width: 1000px;
+        height: 500px;
+        border-radius: 20px;
+      }
+      .main-detail {
+        width: 1000px;
+      }
+      .detail-container{    
+        width: 1000px;
+      }
+    }
+  }
+
+  
+}
+
