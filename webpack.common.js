@@ -95,27 +95,6 @@ module.exports = {
             cacheName: 'restaurantdb-api',
           },
         },
-        {
-          urlPattern: ({ url }) => url.href.startsWith('https://restaurant-api.dicoding.dev/images/medium/'),
-          handler: 'StaleWhileRevalidate',
-          options: {
-            cacheName: 'restaurantdb-image-api',
-          },
-        },
-        {
-          urlPattern: ({ url }) => url.href.startsWith('https://restaurant-api.dicoding.dev/detail/'),
-          handler: 'StaleWhileRevalidate',
-          options: {
-            cacheName: 'restaurantdb-detail-api',
-          },
-        },
-        {
-          urlPattern: ({ url }) => url.href.startsWith('https://kit.fontawesome.com/3282b86bb5.js'),
-          handler: 'StaleWhileRevalidate',
-          options: {
-            cacheName: 'font-awesome-api',
-          },
-        },
       ],
     }),
   ],
